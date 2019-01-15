@@ -1,0 +1,27 @@
+{
+  "name": "whistle.autopac",
+  "version": "1.0.0",
+  "description": "自动加载系统配置的pac脚本设置到whistle",
+  "scripts": {
+    "lint": "eslint index.js lib",
+    "lintfix": "eslint index.js lib --fix"
+  },
+  "homepage": "https://github.com/whistle-plugins/whistle.autopac",
+  "keywords": [
+    "whistle",
+    "pac"
+  ],
+  "registry": "https://github.com/whistle-plugins/whistle.autopac",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whistle-plugins/whistle.autopac.git"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
+    "eslint-config-imweb": "^0.2.10"
+  }
+}
